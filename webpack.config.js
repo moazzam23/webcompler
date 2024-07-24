@@ -7,9 +7,9 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPl
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const TerserJSPlugin = require("terser-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const HardSourceWebpackPlugin = require("hard-source-webpack-plugin");
+// const HardSourceWebpackPlugin = require("hard-source-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-// const HtmlWebpackIncludeAssetsPlugin = require("html-webpack-tags-plugin");
+// const HtmlWebpackIncludeAssetsPlugin = require("html-webpack-include-assets-plugin");
 
 let plugins = [];
 
